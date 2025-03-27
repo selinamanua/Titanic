@@ -1,2 +1,7 @@
-# Titanic
-Built a predictive model to predict passengers who survived the Titanic based on their features!
+## Survival of the Titanic - Predictive Modeling & Analysis
+
+I explored the *Titanic* dataset from Kaggle to analyze what factors influenced passenger survival during the ship’s infamous 1912 disaster. Inspired by my interest in the film and the historical event itself, I wanted to understand how attributes like age, gender, and class affected outcomes. After preprocessing the data—including feature engineering (like extracting titles from names), handling missing values, and scaling—I applied dimensionality reduction using PCA to focus on the most informative features.
+
+To predict survival, I built and evaluated two machine learning models: K-Nearest Neighbors (KNN) and Random Forest. KNN achieved a peak accuracy of **82.7%**, slightly outperforming the Random Forest model at **81.0%**. Both models surpassed the naive rule baseline (61.6%) and highlighted that being male and holding the title “Mr.” significantly decreased the odds of survival. I also created an interactive survival predictor using **Cosine Similarity**, allowing users to input their attributes and see how they would have fared on the Titanic based on their five most similar passengers.
+
+This project combined technical skills with historical storytelling. It challenged me to think critically about model selection, feature importance, and data representation while also offering a creative outlet through visualizations and hypothetical personas. It was a rewarding experience to bring machine learning into a historical context and uncover deeper insights into one of the most well-known tragedies in modern history.
